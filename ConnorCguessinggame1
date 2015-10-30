@@ -1,0 +1,53 @@
+
+<script>
+
+
+
+var totalScore = 0
+
+var question1 = prompt("Was I born in Oregon?");
+
+
+if (question1 === "yes" || question1 === "YES" || question1 === "y" || question1 === "Y")
+{
+  alert("Unfortunatley not! However, coming from Wisconsin, you know I've got to have great taste.... in cheese that is!")
+  totalScore += 1
+}
+
+else {
+alert("That's right! I come from Milwuakee, Wisconsin. The land where Cows, Pabst, and The GreenBay Packers rule!")
+}
+
+
+var question2 = prompt("Have I have summited 6 peaks in the Pacific Northwest?");
+
+if (question2 === "yes" || question2 === "YES" || question2 === "y" || question2 === "Y")
+{
+  alert("Are you sure you don't know me? Maybe we just matched on Tinder?... Anyways, let's move on!")
+  totalScore += 1
+}
+
+else {
+alert("Whoa there you didn't think I could? Incase you're wondering Hood, Adams, St.Helens, South Sister, Middle Sister, and Rainier.")
+}
+
+
+var question3 = prompt("Is Code Fellows my next adventure?");
+
+if (question3 === "yes" || question3 === "YES" || question3 === "y" || question3 === "Y")
+{
+  alert("Correct, and I'm sure it's yours too! Thanks for taking the time to take my quiz.");
+  totalScore += 1
+}
+else {
+alert("Seriously? That was the easy one! Anyways, thanks for taking my quiz!")
+}
+
+
+
+alert("Great job " + totalScore + "/3 is your final score")
+
+
+
+
+</script>
